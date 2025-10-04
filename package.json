@@ -1,0 +1,25 @@
+{
+  "name": "discord-selfbot",
+  "version": "1.0.0",
+  "description": "A Discord selfbot built with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "selfbot", "bot"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.0.1",
+    "dotenv": "^16.3.1",
+    "chalk": "^4.1.2",
+    "speakeasy": "^2.0.0",
+    "qrcode": "^1.5.3",
+    "axios": "^1.6.0",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
